@@ -163,7 +163,9 @@ p {
   align-items: center;
   gap: .5rem;
 }
-
+#projetos{
+  margin-bottom: 5rem;
+}
 .menu--mobile {
   width: 100vw;
   position: fixed;
@@ -230,7 +232,7 @@ p {
   transition: ease-in-out .3s;
 }
 
-.btn span, .btn i {
+.btn a, .btn i {
   font-size: 1.25rem;
   text-transform: uppercase;
 }
@@ -378,7 +380,7 @@ main {
 
 .projects .btn {
   width: auto;
-  margin: auto;
+  margin: auto 20px;
 }
 
 .about {
@@ -587,7 +589,7 @@ footer p {
   }
   
   .card__cover {
-    width: 55%;
+    width: 50%;
   }
 
   .about {
@@ -684,8 +686,10 @@ footer p {
     padding: 12rem 15rem 2rem;
   }
   
-  .technologies, .projects, .about {
+  .projects, .about {
     padding: 10rem 15rem 4rem;
   }
-
+  .technologies{
+    padding: 4rem 15rem 4rem;
+  }
 }
